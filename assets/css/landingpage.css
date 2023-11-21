@@ -1,0 +1,51 @@
+.bg-gradientblue {
+    background-image: var(--gradient);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.logo {
+    color: var(--color-babyblue) !important;
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    color: var(--color-babyblue) !important;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: var(--color-bluegreen) !important;
+    transition: 0.4s;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    color: var(--color-babyblue) !important;
+}
+
+.icon {
+    font-size: 1.8rem;
+    color: var(--color-yellow);
+}
+
+.paragraph {
+    font-size: .9rem;
+}
+
+.span {
+    color: var(--color-bluegreen) !important;
+    font-weight: 800;
+}
+
+.bg-yellow {
+    color: var(--color-darkblue);
+    font-weight: 600;
+    background-color: var(--color-bluegreen) !important;
+    border: var(--color-bluegreen) !important;
+}
+
+.bg-yellow:hover {
+    background-color: var(--color-yellow) !important;
+    transition: .4s;
+}

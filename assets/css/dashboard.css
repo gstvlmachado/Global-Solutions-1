@@ -1,0 +1,35 @@
+.bg-gradientblue {
+    background-image: var(--gradient);
+}
+
+.logo {
+    color: var(--color-babyblue) !important;
+    font-size: 1.6rem;
+}
+
+.nav-link {
+    color: var(--color-babyblue) !important;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: var(--color-bluegreen) !important;
+    transition: 0.4s;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    color: var(--color-babyblue) !important;
+}
+
+.bg-gradientgreen{
+    background-image: var(--gradientgreen);
+}
+
+.hlabel{
+    color: var(--color-darkblue);
+}
+
+.bg-green{
+    background-color: var(--color-babyblue);
+}
