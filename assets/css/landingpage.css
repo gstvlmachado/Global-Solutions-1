@@ -30,17 +30,15 @@
 }
 
 .paragraph {
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .span {
     color: var(--color-bluegreen) !important;
-    font-weight: 800;
 }
 
 .bg-yellow {
     color: var(--color-darkblue);
-    font-weight: 600;
     background-color: var(--color-bluegreen) !important;
     border: var(--color-bluegreen) !important;
 }

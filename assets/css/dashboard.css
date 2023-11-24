@@ -1,3 +1,7 @@
+body{
+    height: auto;
+}
+
 .bg-gradientblue {
     background-image: var(--gradient);
 }
@@ -22,14 +26,45 @@
     color: var(--color-babyblue) !important;
 }
 
-.bg-gradientgreen{
-    background-image: var(--gradientgreen);
+.icon {
+    font-size: 1.4rem;
 }
 
-.hlabel{
+.section-title {
+    font-size: 1.3rem;
     color: var(--color-darkblue);
 }
 
-.bg-green{
-    background-color: var(--color-babyblue);
+.help-text {
+    font-size: 1rem !important;
+}
+
+.help-panel {
+    width: 100%;
+    height: 5.9rem;
+    background-image: var(--gradient);
+    color: var(--color-babyblue);
+    border: 0;
+}
+
+.help-panel:hover {
+    color: var(--color-yellow);
+    transition: .6s;
+}
+
+.register {
+    width: 10rem;
+    font-size: 1rem;
+    background-color: var(--color-bluegreen) !important;
+    border: 0;
+}
+
+.register:hover{
+    background-color: var(--color-bluegrotto) !important;
+    transition: .6s;
+    color: var(--color-babyblue);
+}
+
+.foot{
+    color: var(--color-babyblue);
 }
